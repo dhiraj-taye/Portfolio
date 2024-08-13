@@ -29,20 +29,7 @@ const Page = () => {
       ],
       url: "https://github.com/dhiraj-taye/Travel-Wise", // Replace with actual URL
     },
-    {
-      title: "Travel",
-      description: "AI powered Trip Planner",
-      imageUrl: "Travel", // Replace with actual image URL
-      technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Hugging Face GPT-Neo mode",
-        "Integrated Google Maps API",
-      ],
-      url: "https://github.com/dhiraj-taye/Travel-Wise", // Replace with actual URL
-    },
+  
     // Add more projects here
   ];
 
