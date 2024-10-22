@@ -49,19 +49,19 @@ const GridItem = () => {
       </div>
       
       {/* LinkedIn Link */}
-      <div className="flex items-center justify-center bg-white text-gray-600 hover:scale-105 transition-transform duration-300">
+      <div className="flex items-center justify-center bg-white text-gray-600">
         <FontAwesomeIcon icon={faLinkedin} size="3x" className="text-blue-600 cursor-pointer" />
         <a href="https://www.linkedin.com/in/dhiraj-taye-946884193/" target="_blank" rel="noopener noreferrer" className="ml-2 text-xl md:text-2xl lg:text-3xl font-bold">LinkedIn</a>
       </div>
       
       {/* GitHub Link */}
-      <div className="flex items-center justify-center bg-black text-white hover:scale-105 transition-transform duration-300">
+      <div className="flex items-center justify-center bg-black text-white ">
         <FontAwesomeIcon icon={faGithub} size="3x" className="cursor-pointer"/>
         <a href="https://github.com/dhiraj-taye" target="_blank" rel="noopener noreferrer" className="ml-2 text-xl md:text-2xl lg:text-3xl font-bold">GitHub</a>
       </div>
       
       {/* Quotes Slider */}
-      <div className="bg-green-600 text-white text-xl col-span-1 lg:col-span-2 row-span-1 flex justify-center items-center p-4 hover:scale-105 transition-transform duration-300">
+      <div className="bg-green-600 text-white text-xl col-span-1 lg:col-span-2 row-span-1 flex justify-center items-center p-4 ">
         <Slider {...settings} className="w-full">
           {quotes.map((quote, index) => (
             <div key={index} className="p-4">
@@ -72,7 +72,7 @@ const GridItem = () => {
       </div>
       
       {/* Resume Download */}
-      <div className="bg-black col-span-1 row-span-1 flex flex-col justify-center items-center p-2 hover:scale-105 transition-transform duration-300">
+      <div className="bg-black col-span-1 row-span-1 flex flex-col justify-center items-center p-2 ">
         <FontAwesomeIcon icon={faFilePdf} className="text-white text-5xl cursor-pointer" />
         <a href="/resume.pdf" download className="mt-2 text-xl md:text-2xl lg:text-3xl text-white py-1 px-3 rounded">Resume</a>
       </div>
