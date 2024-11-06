@@ -28,7 +28,7 @@ export const projects = [
   {
     title: "Travel Wise",
     description:
-      "**TravelWise** is a trip planning app that helps users create itineraries by suggesting tourist spots, restaurants, and hotels based on their destination and travel duration. It uses AI-powered recommendations and integrates Google Maps for accurate location data. Built with React.js, Node.js, and MongoDB, TravelWise offers a modern, user-friendly interface.",
+      "TravelWise is a trip planning app that helps users create itineraries by suggesting tourist spots, restaurants, and hotels based on their destination and travel duration. It uses AI-powered recommendations and integrates Google Maps for accurate location data. Built with React.js, Node.js, and MongoDB, TravelWise offers a modern, user-friendly interface.",
     imageUrl: "./images/travelwise.png", 
     technologies: ["React", "Node.js", "Express", "MongoDB", "Hugging Face API"],
     url: "https://travel-wise-frontend-knq8ppr5b-dhiraj-tayes-projects.vercel.app/", 
