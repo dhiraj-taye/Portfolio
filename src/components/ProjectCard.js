@@ -19,7 +19,7 @@ const ProjectCard = ({ title, description, imageUrl, technologies, url }) => {
             key={index}
             className="inline-block bg-gray-600 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2"
           >
-            #{tech}
+            {tech}
           </span>
         ))}
       </div>
